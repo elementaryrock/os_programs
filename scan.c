@@ -3,7 +3,6 @@
 
 void main() {
     int ioq[20], i, n, j, ihead, temp, scan, tot;
-    float seek = 0;
 
     printf("Enter the number of requests: ");
     scanf("%d", &n);
