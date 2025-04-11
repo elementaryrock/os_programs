@@ -3,7 +3,8 @@
 #include <stdlib.h>
 void main(int argc,char *argv[])
 {
-    printf("pid of ec1 is %d",getpid());
+    printf("pid of ec1 is %d\n", getpid());
     char *args[]={"Hello","Need",NULL};
-    execv("./f",args);
+    execv("./ec2", args);  
+    printf("This line won't be executed if execv succeeds\n");
 }
